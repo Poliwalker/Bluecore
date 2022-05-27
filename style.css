@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Cabin:ital,wght@1,500&family=Fira+Sans&family=IBM+Plex+Serif:ital,wght@1,100&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital@1&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bluedark: #03045e;
+    --bluemedium: #023e8a;
+    --bluethin: #0077b6;
+    --blueclear: #0096c7;
+    --ligthblue: #00b4d8;
+    --ligthbluemedium: #48cae4;
+    --lightblueclear:  #faebd7;
+    --bold: 800;
+    --medium: 500;
+    --thin: 300;
+    --fonttitulos: 'IBM Plex Serif';
+    --fonttext: 'cabin';
+}
+body{
+    width: 100vh;
+    max-width: 100%;
+}
+
+a {
+list-style: none;
+text-decoration: none;
+}
+
+li{
+list-style: none;
+}
+
+/* barra de navegacion */
+
+header{
+    background-color: var(--bluedark);
+}
+
+header img{
+    background-color: var(--lightblueclear);
+    width: 150px;
+    height: 100px;
+}
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-list i{
+    font-size: 2.5rem;
+    color: #ebecff;
+}
+
+.nav-links{
+    width: 100%;
+    order: 1;
+}
+
+.item{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    display: none;
+    padding: 1rem 0;
+    
+}
+
+/* Barra de nav */
+
+/* seccion 1  */
+
+.presentation{
+    background-color: var(--bluedark);
+    color: var(--bluedark);
+    height: 100vh;
+    padding: 2rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.presentation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px;
+    background-color: #faebd7;
+    border-radius: 15px;
+    max-width: 300px;
+
+}
+
+/* seccion 2 */
+.about{
+    background-color: var(--lightblueclear);
+    color: var(--lightblueclear);
+    weight:var(--bold);
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 3rem;
+
+}
+
+.about img{
+    width: 150px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px;
+    background-color: var(--bluedark);
+    border-radius: 15px;
+    gap: 50px;
+    max-width: 300px;
+    
+}
+
+.about-container h2{
+    font-family: var(--fonttitulos);
+    weight:var(--bold);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.about-container p{
+    font-family: var(--fonttext);
+    weight:var(--thin);
+
+}
+
+.about-img-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* seccion 3 Contacto */
+
+.login{
+    background-color: var(--bluemedium);
+    height: 120vh;
+    max-height: 75%;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img{
+    width: 150px;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebecff;
+    margin:0 40px;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+.login-container h2{
+    font-family: var(--fonttitulos);
+    font-weight: var(--bold);
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.login-container input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+    
+
+
+
+
+/* footer */
+
+footer{
+    background: rgb(45,0,226);
+    background: linear-gradient(90deg, rgba(45,0,226,1) 2%, rgba(0,0,0,1) 46%, rgba(18,30,117,1) 79%, rgba(55,97,255,1) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+   
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 200px;
+    max-width: 300px;
+    padding: 2rem 3rem;
+}
+
+.footer-link{
+    margin: 30px;
+}
+
+.footer-link a{
+    color: #faebd7;
+}
+  
+
+
+footer img{
+    width: 200px;
+    border-radius: 15px;
+}
