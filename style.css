@@ -365,14 +365,15 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:40px 40px;
+    padding:100px 40px;
     background-color: var(--lightblueclear);
     border-radius: 15px;
     max-width: 400px;
+    max-height: none;
     position: absolute;
     right: 10px;
     left: 1000px;
-    top: 200px;
+    top: 300px;
     
 }
 
@@ -425,11 +426,14 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #ebecff;
-    margin:0 40px;
+    margin:10px 40px;
     padding: 40px;
     border-radius: 15px;
     max-width: 500px;
     height: auto;
+    position: absolute;
+    top: 1300px;
+    left: 250px;
 }
 
 /* fin login */
